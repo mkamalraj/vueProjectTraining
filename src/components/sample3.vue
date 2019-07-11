@@ -3,11 +3,12 @@
 <div>
 <hr>
 <h1 :style="example">{{names}}</h1>
-<span :style="{color:'red'}">aaaa</span>
+<p>hello</p>
 <p v-if="isvisible">{{age}}</p>
 <p v-else-if="isdisable">{{age2}}</p>
 <h1 v-else>{{content}}</h1>
 <p v-show ="abc">{{content2}}</p>
+<h1>kamal</h1>
 </div>
 <div>
 <ul v-if="disable">
