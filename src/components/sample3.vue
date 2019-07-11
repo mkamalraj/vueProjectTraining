@@ -2,6 +2,8 @@
 <div>
 <div>
 <hr>
+<p> THIS IS SAMPLE-3</p>
+<p> THIS IS CHANGED AND UPDATED</p>
 <h1 :style="example">{{names}}</h1>
 <p>hello</p>
 <p v-if="isvisible">{{age}}</p>
