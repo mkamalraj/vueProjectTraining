@@ -4,7 +4,6 @@
 <p>{{hello()}}</p>
 <hr>
 <p>some text change</p>
-<h1>add</h1>
 <input type="text" v-on:input="change">
 <a :href="link">Gmail</a>
 <table border="1" v-if="isvisible">
