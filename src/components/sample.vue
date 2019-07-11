@@ -2,8 +2,9 @@
 <div>
 <h1>{{name}}</h1>
 <p>{{hello()}}</p>
-<span>{{msg}}</span>
 <hr>
+<p>some text change</p>
+<h1>add</h1>
 <input type="text" v-on:input="change">
 <a :href="link">Gmail</a>
 <table border="1" v-if="isvisible">
@@ -27,7 +28,6 @@ export default{
 	return{
 name:"this is vuejs",
 title:"instance",
-msg:"hello world",
 link:"http://www.gmail.com",
 a:[{Name:"kamal",age:20,Rollno:24},
 	{Name:"Sai",age:21,Rollno:21},
